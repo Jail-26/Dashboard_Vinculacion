@@ -1,0 +1,8 @@
+{
+  "name": "proyectos/vinculacion",
+  "description": "Proyectos de vinculación - preparación para publicación en GitHub",
+  "require": {
+    "php": ">=7.4",
+    "vlucas/phpdotenv": "^5.5"
+  }
+}

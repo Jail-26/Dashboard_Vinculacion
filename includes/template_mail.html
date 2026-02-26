@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Código de Verificación | Instituto Superior Tecnológico Nelson Torres</title>
+    <style>
+        body {
+            background: #f4f6f8;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .mail-container {
+            max-width: 500px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            overflow: hidden;
+        }
+        .mail-header {
+            background: #e63946;
+            color: #fff;
+            padding: 24px 32px 16px 32px;
+            height: 150px;
+            display: grid;
+            place-content: center;
+            text-align: center;
+        }
+        
+        .mail-body {
+            padding: 32px;
+            color: #222;
+        }
+        .codigo-box {
+            background: #f0f4fa;
+            border: 1px dashed #003366;
+            color: #e63946;
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: center;
+            letter-spacing: 4px;
+            padding: 18px 0;
+            margin: 24px 0;
+            border-radius: 8px;
+        }
+        .mail-footer {
+            background: #f8f9fa;
+            color: #888;
+            font-size: 0.95rem;
+            text-align: center;
+            padding: 18px 32px;
+            border-top: 1px solid #e9ecef;
+        }
+        @media (max-width: 600px) {
+            .mail-container { max-width: 98%; }
+            .mail-body, .mail-header, .mail-footer { padding-left: 12px; padding-right: 12px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="mail-container">
+        <div class="mail-header">
+           <div>
+               <img src="cid:logo_cid" alt="logo" width="200px">
+
+           </div>
+            
+        </div>
+        <div class="mail-body">
+            <p>Estimado/a usuario/a,</p>
+            <p>
+                Hemos recibido una solicitud para recuperar el acceso al panel administrativo de Vinculación con la Sociedad.
+                Para continuar con el proceso, por favor ingrese el siguiente código de verificación en el formulario correspondiente:
+            </p>
+            <div class="codigo-box">
+                {{CODIGO}}
+            </div>
+            <p>
+                Este código es válido por 10 minutos. Si usted no solicitó este proceso, puede ignorar este mensaje.
+            </p>
+            <p>
+                Atentamente,<br>
+                <strong>Instituto Superior Tecnológico Nelson Torres</strong><br>
+                Área de Vinculación con la Sociedad
+            </p>
+        </div>
+        <div class="mail-footer">
+            Este mensaje fue generado automáticamente. Por favor, no responda a este correo.<br>
+            &copy; <?php echo date('Y'); ?> Instituto Superior Tecnológico Nelson Torres
+        </div>
+    </div>
+</body>
+</html>

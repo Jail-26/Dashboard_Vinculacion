@@ -1,0 +1,16 @@
+# Ignore sensitive configuration and user uploads
+/public_html/uploads/
+/includes/config.php
+/.env
+vendor/
+logs/
+
+# Ignore original SQL dumps containing real data
+base_vistas_datos.sql
+database_dashboard.sql
+vinculacion.sql
+vistas.sql
+
+# Node/PHP artifacts
+composer.lock
+*.log

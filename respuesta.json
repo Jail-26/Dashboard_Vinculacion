@@ -1,0 +1,152 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "id_programa": 1,
+      "nombre": "Alfabetización Digital en Zonas Rurales",
+      "descripcion": "Programa para reducir la brecha digital en parroquias rurales de Pichincha.",
+      "fecha_inicio": "2025-10-10",
+      "fecha_fin": "2026-01-01",
+      "proyectos": [
+        {
+          "id_proyecto": 1,
+          "nombre": "Capacitación en Ofimática Básica Cayambe 2024",
+          "descripcion_corta": "Curso de Word y Excel para jóvenes.",
+          "estado": "En ejecución",
+          "banner": "692736e2594c0_1764177634.png",
+          "fecha_inicio": "2024-10-15",
+          "fecha_fin": "2025-01-15",
+          "total_beneficiarios": "0",
+          "total_estudiantes": 3,
+          "total_docentes": 3,
+          "entidad_nombre": "Fundación Fe y Alegría Cayambe",
+          "entidad_representante": "Sor María Gómez",
+          "entidad_direccion": "Calle Rocafuerte N45",
+          "entidad_canton": "Cayambe",
+          "entidad_provincia": "Pichincha",
+          "entidad_latitud": "0.04166700",
+          "entidad_longitud": "-78.14520000",
+          "fases": [
+            {
+              "id_fase": 1,
+              "id_proyecto": 1,
+              "nombre": "Fase 1: Diagnóstico y Preparación",
+              "banner": null,
+              "descripcion": "Levantamiento de línea base y preparación de manuales.",
+              "fecha_inicio": "2024-10-15",
+              "fecha_fin": "2024-10-30",
+              "estado": "En ejecución",
+              "cantidad_beneficiados": 0,
+              "estudiantes_fase": 1,
+              "docentes_fase": 2
+            },
+            {
+              "id_fase": 2,
+              "id_proyecto": 1,
+              "nombre": "Fase 2: Capacitación",
+              "banner": null,
+              "descripcion": "Ejecución de talleres presenciales.",
+              "fecha_inicio": "2024-11-01",
+              "fecha_fin": "2024-12-31",
+              "estado": "En ejecución",
+              "cantidad_beneficiados": 0,
+              "estudiantes_fase": 2,
+              "docentes_fase": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id_programa": 2,
+      "nombre": "Asesoría Tributaria y Financiera",
+      "descripcion": "Apoyo a microemprendedores en obligaciones con el SRI.",
+      "fecha_inicio": null,
+      "fecha_fin": null,
+      "proyectos": [
+        {
+          "id_proyecto": 3,
+          "nombre": "Josedasdasda",
+          "descripcion_corta": "Curso de Word y Excel para jóvenes.",
+          "estado": "En ejecución",
+          "banner": "6927370c76f81_1764177676.png",
+          "fecha_inicio": "2025-11-01",
+          "fecha_fin": "2025-11-30",
+          "total_beneficiarios": "10000",
+          "total_estudiantes": 0,
+          "total_docentes": 0,
+          "entidad_nombre": "Fundación Fe y Alegría Cayambe",
+          "entidad_representante": "Sor María Gómez",
+          "entidad_direccion": "Calle Rocafuerte N45",
+          "entidad_canton": "Cayambe",
+          "entidad_provincia": "Pichincha",
+          "entidad_latitud": "0.04166700",
+          "entidad_longitud": "-78.14520000",
+          "fases": [
+            {
+              "id_fase": 5,
+              "id_proyecto": 3,
+              "nombre": "bbbbbbbbbbbb",
+              "banner": "692770e71b6e6_1764192487.png",
+              "descripcion": "asdm,asdma,sd",
+              "fecha_inicio": "2025-11-01",
+              "fecha_fin": "2025-11-30",
+              "estado": "Pendiente",
+              "cantidad_beneficiados": 10000,
+              "estudiantes_fase": 0,
+              "docentes_fase": 0
+            }
+          ]
+        },
+        {
+          "id_proyecto": 2,
+          "nombre": "Núcleo de Apoyo Contable y Fiscal (NAF)",
+          "descripcion_corta": "Asistencia gratuita para declaraciones del IVA.",
+          "estado": "En ejecución",
+          "banner": null,
+          "fecha_inicio": "2024-11-01",
+          "fecha_fin": "2025-02-01",
+          "total_beneficiarios": "150",
+          "total_estudiantes": 2,
+          "total_docentes": 1,
+          "entidad_nombre": "Asociación de Emprendedores de Ibarra",
+          "entidad_representante": "Luis Andrade",
+          "entidad_direccion": "Calle Bolívar 4-56",
+          "entidad_canton": "Ibarra",
+          "entidad_provincia": "Imbabura",
+          "entidad_latitud": "0.35170000",
+          "entidad_longitud": "-78.12230000",
+          "fases": [
+            {
+              "id_fase": 4,
+              "id_proyecto": 2,
+              "nombre": "Marquito",
+              "banner": "69276bf655cdc_1764191222.jpg",
+              "descripcion": "dfasdasdasdasdasdas",
+              "fecha_inicio": "2025-11-01",
+              "fecha_fin": "2025-11-30",
+              "estado": "En ejecución",
+              "cantidad_beneficiados": 150,
+              "estudiantes_fase": 2,
+              "docentes_fase": 1
+            },
+            {
+              "id_fase": 3,
+              "id_proyecto": 2,
+              "nombre": "Fase de prueba",
+              "banner": "692736a383a7c_1764177571.png",
+              "descripcion": "",
+              "fecha_inicio": "2025-11-30",
+              "fecha_fin": "2025-12-31",
+              "estado": "En ejecución",
+              "cantidad_beneficiados": 0,
+              "estudiantes_fase": 1,
+              "docentes_fase": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "timestamp": "2025-11-27T00:57:42+01:00"
+}
